@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gudang Rongsok Bandung | Terima Jual Beli & Jasa Pengangkutan Barang Bekas Industri & Kantor</title>
+    <meta name="description" content="Solusi profesional jual beli rongsok dan jasa pengangkutan barang bekas industri, pabrik, kantor, toko, dan rumah tangga di Bandung dan sekitarnya. Harga terbaik & jemput langsung!">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ecoGreen: { 50: '#f0fdf4', 600: '#16a34a', 700: '#15803d', 800: '#166534' },
+                        industrial: { 800: '#1f2937', 900: '#111827' }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome untuk Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- TOP BAR -->
+    <div class="bg-industrial-900 text-gray-300 text-xs py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span><i class="fa-solid fa-location-dot text-ecoGreen-600 mr-1"></i> Melayani Seluruh Wilayah Bandung & Sekitarnya</span>
+                <span class="hidden md:inline"><i class="fa-solid fa-clock text-ecoGreen-600 mr-1"></i> Senin - Sabtu: 08.00 - 17.00 WIB</span>
+            </div>
+        </div>
+    </div>  
+
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="bg-ecoGreen-600 text-white p-2.5 rounded-lg shadow">
+                    <i class="fa-solid fa-recycle text-xl"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg text-industrial-900 leading-tight">Gudang Rongsok</h1>
+                    <span class="text-xs text-ecoGreen-700 font-bold tracking-wider uppercase">Bandung Raya</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center gap-6 font-medium text-sm">
+                <a href="#layanan" class="hover:text-ecoGreen-600 transition">Layanan</a>
+                <a href="#kategori" class="hover:text-ecoGreen-600 transition">Terima Barang</a>
+                <a href="#keunggulan" class="hover:text-ecoGreen-600 transition">Keunggulan</a>
+                <a href="#estimasi" class="hover:text-ecoGreen-600 transition">Form & Simulasi</a>
+            </nav>
+            <div>
+                <a href="#estimasi" class="bg-ecoGreen-600 hover:bg-ecoGreen-700 text-white px-4 py-2.5 rounded-lg text-sm font-semibold shadow-md transition flex items-center gap-2">
+                    <i class="fa-solid fa-truck-ramp-box"></i> Minta Penawaran
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-industrial-900 text-white py-20 lg:py-28 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#16a34a_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="bg-ecoGreen-600/20 text-ecoGreen-600 border border-ecoGreen-600/30 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider inline-block mb-4">
+                    Pengepul & Jasa Angkut Profesional
+                </span>
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight mb-6">
+                    Solusi Bersih & Untung Bongkar Gudang, Pabrik, & Kantor di <span class="text-ecoGreen-600">Bandung</span>
+                </h1>
+                <p class="text-gray-300 text-base sm:text-lg mb-8 leading-relaxed">
+                    Kami membeli segala jenis barang bekas, sisa produksi industri, besi tua, mesin rusak, hingga inventaris kantor lama dengan harga transparan dan layanan <strong>jemput angkut armada sendiri</strong>.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://wa.me/6285353664560?text=Halo,%20saya%20ingin%20jadwalkan%20pengangkutan%20barang%20bekas%20di%20Bandung." target="_blank" class="bg-ecoGreen-600 hover:bg-ecoGreen-700 text-white font-semibold px-6 py-3.5 rounded-xl text-center shadow-lg transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Hubungi WhatsApp Sekarang
+                    </a>
+                    <a href="#estimasi" class="bg-gray-800 hover:bg-gray-700 border border-gray-700 text-white font-semibold px-6 py-3.5 rounded-xl text-center transition">
+                        Hitung Estimasi Barang
+                    </a>
+                </div>
+            </div>
+
+            <!-- ========================================== -->
+            <!-- BAGIAN SLIDE FOTO LOKAL (FOLDER IMAGES)     -->
+            <!-- ========================================== -->
+            <div class="bg-gray-800 p-3 sm:p-4 rounded-2xl shadow-2xl border border-gray-700 relative overflow-hidden">
+                <div class="absolute top-4 left-4 z-20 bg-industrial-900/80 backdrop-blur px-3 py-1 rounded-full text-xs text-ecoGreen-600 font-bold border border-ecoGreen-600/30 flex items-center gap-2">
+                    <i class="fa-solid fa-camera-retro"></i> Galeri Kegiatan Pengangkutan
+                </div>
+                
+                <div class="relative h-72 sm:h-80 rounded-xl overflow-hidden shadow-inner">
+                    
+                    <!-- SLIDE 1 (Ganti nama file gambar di attribute src jika diperlukan) -->
+                    <div class="absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-100 slider-item">
+                        <img src="images/slide1.jpg" alt="Pengangkutan Mesin Pabrik" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-industrial-900/90 via-transparent to-transparent flex items-end p-4">
+                            <p class="text-xs sm:text-sm text-white font-medium"><i class="fa-solid fa-check text-ecoGreen-600 mr-1"></i> Proses bongkar & angkut scrap besi pabrik skala besar di Bandung.</p>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 2 (Ganti nama file gambar di attribute src jika diperlukan) -->
+                    <div class="absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 slider-item">
+                        <img src="images/slide2.jpg" alt="Armada Truk Pengangkut" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-industrial-900/90 via-transparent to-transparent flex items-end p-4">
+                            <p class="text-xs sm:text-sm text-white font-medium"><i class="fa-solid fa-check text-ecoGreen-600 mr-1"></i> Armada truk siap jemput langsung ke lokasi gudang atau toko Anda.</p>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 3 (Ganti nama file gambar di attribute src jika diperlukan) -->
+                    <div class="absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 slider-item">
+                        <img src="images/slide3.jpg" alt="Penimbangan Barang Bekas" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-industrial-900/90 via-transparent to-transparent flex items-end p-4">
+                            <p class="text-xs sm:text-sm text-white font-medium"><i class="fa-solid fa-check text-ecoGreen-600 mr-1"></i> Penimbangan digital transparan langsung di lokasi pelanggan.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="flex justify-center gap-2 mt-3">
+                    <span class="w-2.5 h-2.5 rounded-full bg-ecoGreen-600 cursor-pointer transition dot-indicator" onclick="currentSlide(0)"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-gray-600 cursor-pointer transition dot-indicator" onclick="currentSlide(1)"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-gray-600 cursor-pointer transition dot-indicator" onclick="currentSlide(2)"></span>
+                </div>
+            </div>
+            <!-- ========================================== -->
+
+        </div>
+    </section>
+
+    <!-- TARGET PELANGGAN -->
+    <section id="layanan" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-2xl sm:text-3xl font-bold text-industrial-900 mb-3">Siapa Saja yang Kami Layani?</h2>
+                <p class="text-gray-600 text-sm sm:text-base">Kami melayani skala kecil hingga pembersihan total (<em>clearing</em>) skala industri besar di wilayah Bandung Raya.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-gray-50 border border-gray-200 p-6 rounded-xl hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-ecoGreen-50 text-ecoGreen-600 rounded-lg flex items-center justify-center text-xl mb-4 font-bold">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-industrial-900 mb-2">Industri & Pabrik</h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">Pembelian sisa scrap produksi, mesin tua, bongkaran struktur baja, drum besi, dan limbah pabrik legal.</p>
+                </div>
+                <div class="bg-gray-50 border border-gray-200 p-6 rounded-xl hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-ecoGreen-50 text-ecoGreen-600 rounded-lg flex items-center justify-center text-xl mb-4 font-bold">
+                        <i class="fa-solid fa-warehouse"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-industrial-900 mb-2">Pergudangan & Toko</h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">Pembersihan stok barang usang, rak besi gudang, dus/kardus berton-ton, dan renovasi ruko.</p>
+                </div>
+                <div class="bg-gray-50 border border-gray-200 p-6 rounded-xl hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-ecoGreen-50 text-ecoGreen-600 rounded-lg flex items-center justify-center text-xl mb-4 font-bold">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-industrial-900 mb-2">Perkantoran</h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">Pengangkutan inventaris kantor lama (CPU/Komputer rusak, meja kursi besi, AC bekas, arsip kertas).</p>
+                </div>
+                <div class="bg-gray-50 border border-gray-200 p-6 rounded-xl hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-ecoGreen-50 text-ecoGreen-600 rounded-lg flex items-center justify-center text-xl mb-4 font-bold">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-industrial-900 mb-2">Rumah Tangga</h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">Jasa angkut barang bekas rumah (kulkas rusak, mesin cuci, perabot besi, koran/buku bekas borongan).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KATEGORI BARANG YANG DIBELI -->
+    <section id="kategori" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-2xl sm:text-3xl font-bold text-industrial-900 mb-3">Barang Apa Saja yang Kami Beli?</h2>
+                <p class="text-gray-600 text-sm">Berikut adalah komoditas utama yang kami terima dengan harga bersaing langsung timbangan jujur.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 text-center">
+                    <i class="fa-solid fa-cubes text-3xl text-ecoGreen-600 mb-2"></i>
+                    <h4 class="font-bold text-sm text-industrial-900">Besi & Baja Scrap</h4>
+                    <p class="text-xs text-gray-500 mt-1">Plat, pipa, tulangan, mesin</p>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 text-center">
+                    <i class="fa-solid fa-bolt text-3xl text-ecoGreen-600 mb-2"></i>
+                    <h4 class="font-bold text-sm text-industrial-900">Tembaga & Kuningan</h4>
+                    <p class="text-xs text-gray-500 mt-1">Kabel, pipa AC, radiator</p>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 text-center">
+                    <i class="fa-solid fa-boxes-stacked text-3xl text-ecoGreen-600 mb-2"></i>
+                    <h4 class="font-bold text-sm text-industrial-900">Kertas & Kardus</h4>
+                    <p class="text-xs text-gray-500 mt-1">Kardus kemasan, arsip kantor</p>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 text-center">
+                    <i class="fa-solid fa-computer text-3xl text-ecoGreen-600 mb-2"></i>
+                    <h4 class="font-bold text-sm text-industrial-900">Elektronik & Mesin</h4>
+                    <p class="text-xs text-gray-500 mt-1">CPU, genset rusak, AC split</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULIR & SIMULASI PENJEMPUTAN -->
+    <section id="estimasi" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="bg-industrial-900 text-white p-8 rounded-2xl shadow-xl">
+                <div class="text-center mb-8">
+                    <span class="text-ecoGreen-600 font-semibold text-xs tracking-wider uppercase">Layanan Terpadu</span>
+                    <h2 class="text-2xl font-bold mt-1">Formulir Cepat & Simulasi Penjemputan Barang</h2>
+                    <p class="text-xs text-gray-400 mt-2">Isi detail penawaran di bawah ini, sistem akan otomatis menghitung armada dan mengirim data ke database serta WhatsApp.</p>
+                </div>
+
+                <form id="leadsForm" class="space-y-5">
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-gray-400 mb-2">Penawaran Penarikan Barang Bekas</label>
+                        <select id="simKomoditas" class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-ecoGreen-600">
+                            <option value="Besi Tua / Scrap Industri">Besi Tua / Scrap Industri</option>
+                            <option value="Kardus / Kertas Borongan">Kardus / Kertas Borongan</option>
+                            <option value="Tembaga / Kabel Bekas">Tembaga / Kabel Bekas</option>
+                            <option value="Inventaris Kantor / Elektronik">Inventaris Kantor / Elektronik</option>
+                            <option value="Campuran Borongan Gudang">Campuran Borongan Gudang</option>
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-400 mb-2">Nama / Perusahaan</label>
+                            <input type="text" id="nama" required class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-ecoGreen-600" placeholder="Contoh: PT. Maju Jaya / Bpk. Budi">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-400 mb-2">WhatsApp</label>
+                            <input type="tel" id="telepon" required class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-ecoGreen-600" placeholder="08xxxxxxxxxx">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-gray-400 mb-2">Deskripsi Barang</label>
+                        <textarea id="deskripsi" rows="3" required class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-ecoGreen-600" placeholder="Misal: Sisa besi plat pabrik 500kg, kardus bekas dus mie, meja kantor rusak..."></textarea>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-gray-400 mb-2">Estimasi Berat</label>
+                        <select id="simBerat" class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-ecoGreen-600">
+                            <option value="Kurang dari 100 Kg (Skala Rumah Tangga)">Kurang dari 100 Kg (&lt; 100 Kg)</option>
+                            <option value="100 kg - 500 Kg (Skala Toko/Kantor Kecil)">100 kg - 500 Kg</option>
+                            <option value="500 kg - 2 Ton (Skala Gudang Menengah)">500 kg - 2 Ton</option>
+                            <option value="Lebih dari 2 Ton (Skala Pabrik / Industri Besar)">Lebih dari 2 Ton (&gt; 2 Ton - Truk Besar)</option>
+                        </select>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-xl text-center text-sm text-gray-300 border border-gray-700">
+                        <span class="block text-xs text-ecoGreen-600 font-bold mb-1 uppercase">Estimasi Armada:</span>
+                        <span id="hasilArmada" class="font-semibold text-white">Mobil Pick-Up / Engkel Ringan</span>
+                    </div>
+
+                    <button type="submit" class="w-full bg-ecoGreen-600 hover:bg-ecoGreen-700 text-white font-bold py-3.5 rounded-xl transition shadow-lg text-sm flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Pesan Truk Pengangkut & Kirim ke WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEUNGGULAN -->
+    <section id="keunggulan" class="py-16 bg-gray-50 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-2xl sm:text-3xl font-bold text-industrial-900 mb-3">Mengapa Memilih Kami?</h2>
+                <p class="text-gray-600 text-sm">Mitra terpercaya berbagai pabrik dan instansi di Bandung sejak bertahun-tahun.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-ecoGreen-600 text-white rounded-lg flex items-center justify-center font-bold">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-industrial-900 text-base mb-1">Timbangan Jujur & Transparan</h3>
+                        <p class="text-xs text-gray-600 leading-relaxed">Penimbangan bisa dilakukan langsung di lokasi Anda menggunakan timbangan digital akurat.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-ecoGreen-600 text-white rounded-lg flex items-center justify-center font-bold">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-industrial-900 text-base mb-1">Armada Angkut Sendiri</h3>
+                        <p class="text-xs text-gray-600 leading-relaxed">Kami sediakan armada dari Pick-Up hingga Truk Fuso beserta tenaga bongkar muat (<em>crew</em>).</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-ecoGreen-600 text-white rounded-lg flex items-center justify-center font-bold">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-industrial-900 text-base mb-1">Pembayaran Kontan / Transfer</h3>
+                        <p class="text-xs text-gray-600 leading-relaxed">Pembayaran diselesaikan langsung saat barang selesai dimuat, tanpa tunda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-industrial-900 text-gray-400 py-12 text-sm">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div>
+                <div class="flex items-center gap-2 mb-4">
+                    <div class="bg-ecoGreen-600 text-white p-2 rounded-lg">
+                        <i class="fa-solid fa-recycle text-lg"></i>
+                    </div>
+                    <span class="font-bold text-white text-lg">Gudang Rongsok Bandung</span>
+                </div>
+                <p class="text-xs text-gray-400 leading-relaxed">
+                    Pusat layanan pembelian barang bekas dan jasa pengangkutan material scrap industri, kantor, toko, dan rumah tangga terpercaya di Bandung Raya.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-4">Area Layanan Utama</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><i class="fa-solid fa-check text-ecoGreen-600 mr-2"></i> Bandung Kota & Cimahi</li>
+                    <li><i class="fa-solid fa-check text-ecoGreen-600 mr-2"></i> Kabupaten Bandung (Rancaekek, Soreang, Banjaran)</li>
+                    <li><i class="fa-solid fa-check text-ecoGreen-600 mr-2"></i> Kabupaten Bandung Barat (Padalarang, Cimareme)</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-4">Kontak Cepat Leads</h4>
+                <p class="text-xs mb-3">Butuh bongkar gudang atau pabrik segera? Hubungi nomor operasional kami:</p>
+                <a href="https://wa.me/6285353664560" target="_blank" class="inline-flex items-center gap-2 bg-ecoGreen-600 hover:bg-ecoGreen-700 text-white px-4 py-2.5 rounded-lg text-xs font-semibold transition">
+                    <i class="fa-brands fa-whatsapp text-sm"></i> Hubungi kami via WhatsApp
+                </a>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 border-t border-gray-800 pt-6 text-center text-xs">
+            &copy; 2026 Gudang Rongsok Bandung. All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT DINAMIS (SLIDER & FORM SUBMIT) -->
+    <script>
+        // 1. Script Slider Foto Kegiatan Bergerak Otomatis
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.slider-item');
+        const dots = document.querySelectorAll('.dot-indicator');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.style.opacity = i === index ? '1' : '0';
+            });
+            dots.forEach((dot, i) => {
+                dot.style.backgroundColor = i === index ? '#16a34a' : '#4b5563';
+            });
+        }
+
+        function nextSlide() {
+            slideIndex = (slideIndex + 1) % slides.length;
+            showSlide(slideIndex);
+        }
+
+        function currentSlide(index) {
+            slideIndex = index;
+            showSlide(slideIndex);
+        }
+
+        // Jalankan auto slide setiap 4 detik
+        setInterval(nextSlide, 4000);
+
+        // 2. Script Dinamis Estimasi Armada
+        const simKomoditas = document.getElementById('simKomoditas');
+        const simBerat = document.getElementById('simBerat');
+        const hasilArmada = document.getElementById('hasilArmada');
+
+        function updateEstimasiArmada() {
+            let beratVal = simBerat.selectedIndex;
+            let rekomendasi = "";
+            if(beratVal === 0) rekomendasi = "Mobil Pick-Up (Kecil / Rumah Tangga)";
+            else if(beratVal === 1) rekomendasi = "Mobil Pick-Up / Box Kecil";
+            else if(beratVal === 2) rekomendasi = "Truk Engkel / CDE (Sedang)";
+            else rekomendasi = "Truk Double / Fuso (Besar - Industri)";
+            
+            hasilArmada.textContent = rekomendasi;
+        }
+
+        simBerat.addEventListener('change', updateEstimasiArmada);
+
+        // 3. Script Kirim Leads Terpadu (Database Google Sheets & WhatsApp)
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw_akOtN-kNt12-4Bf9wtzvTahqDeo5L8IssZIK9DbcI4hFmM25f2Q311uCsSxmdOLFaA/exec';
+        const noWhatsApp = "6285353664560";
+
+        document.getElementById('leadsForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const komoditas = simKomoditas.value;
+            const nama = document.getElementById('nama').value;
+            const telepon = document.getElementById('telepon').value;
+            const deskripsi = document.getElementById('deskripsi').value;
+            const berat = simBerat.value;
+            const armada = hasilArmada.textContent;
+
+            // Kirim ke Google Sheets di background
+            fetch(scriptURL, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ 
+                    nama: nama, 
+                    telepon: telepon, 
+                    kategori: komoditas, 
+                    deskripsi: `Detail: ${deskripsi} | Berat: ${berat} | Armada: ${armada}` 
+                })
+            }).catch(error => console.error('Error G-Sheet:', error));
+
+            // Format pesan WhatsApp
+            const pesan = `Halo Gudang Rongsok Bandung,%0A%0ASaya ingin mengajukan penawaran penarikan barang bekas:%0A- Komoditas: ${komoditas}%0A- Nama/Perusahaan: ${nama}%0A- WhatsApp: ${telepon}%0A- Deskripsi Barang: ${deskripsi}%0A- Estimasi Berat: ${berat}%0A- Estimasi Armada: ${armada}%0A%0AMohon info jadwal survey/penjemputan. Terima kasih.`;
+            
+            // Buka WhatsApp
+            setTimeout(() => {
+                window.open(`https://wa.me/${noWhatsApp}?text=${pesan}`, '_blank');
+            }, 500);
+        });
+    </script>
+</body>
+</html>
